@@ -1,0 +1,17 @@
+.float{
+    justify-content: space-around;
+    display: flex;
+    background:white;
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    align-items: center;
+}
+.float>img{
+    transform: scale(0.5);
+}
+.float>span{
+    font-size: 16px;
+}
+/* .float>span:nth-child(2){
+    font-size: 16px;
+} */
